@@ -13,31 +13,31 @@
 
 
 
-makeCacheMatrix <- function(x = matrix()) {                             ## ' 
+makeCacheMatrix <- function(x = matrix()) {                             ## 'x'is the matrix() 
 
-        dim(x)<-c(2,2)
-        i<- NULL
+        dim(x)<-c(2,2)                                                  ## 'x' is converted to matrix
+        i<- NULL                                                        ## inverse of matrix is set to NULL
 
 
-    set <- function(y)
-            {
+    set <- function(y)                                                  ##takes the fresh input from user
+            {                                                           ## sets the new input to 'x'
                 dim(y)<-c(2,2)
                 x <<- y
                
                 i <<- NULL
             }
      
-    get <- function()
+    get <- function()                                                   ## displays the value of the input 'x'                
             {
               x
             }
     
-    setinverse <- function(inv)
+    setinverse <- function(inv)                                         ##stores the inverse of matrix value
             { 
               i <<- inv
             }   
   
-    getinverse <- function()
+    getinverse <- function()                                            ## displays the inverse of  matrix
             {
                i
             }   
