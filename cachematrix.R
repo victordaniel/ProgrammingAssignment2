@@ -1,8 +1,10 @@
 ## The following code is used to find the matrix inversion .
 ## Matrix inversion is usually costly computation in terms of time taken to compute the result,
-## The following code ,overcome the above said problem ,by .........
+## The following code ,overcomes the above said problem ,by .........
 ##            ...........caching the matrix inversion rather than compute it repeatedly. 
 
+
+## the function 'makeCacheMatrix' takes 'x' as input ,which is of class 'matrix'
 
 makeCacheMatrix <- function(x = matrix()) {
 
