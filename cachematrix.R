@@ -4,9 +4,12 @@
 ##            ...........caching the matrix inversion rather than compute it repeatedly. 
 
 
-## the function 'makeCacheMatrix' takes 'x' as input ,which is of class 'matrix'
+## the function 'makeCacheMatrix' takes 'x' as input ,which is of class 'matrix' 
+## initially 'x' is assigned a list of elements.
+## then itis converted to matrix.
+## 
 
-makeCacheMatrix <- function(x = matrix()) {
+makeCacheMatrix <- function(x = matrix()) {                             ## ' 
 
 dim(x)<-c(2,2)
   i<- NULL
