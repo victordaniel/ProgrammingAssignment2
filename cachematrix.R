@@ -1,7 +1,8 @@
-## Put comments here that give an overall description of what your
-## functions do
+## The following code is used to find thematrix inversion .
+## Matrix inversion is usually costly computation in terms of time taken to compute the result,
+## The following code ,overcome the above said problem ,by .........
+##            ...........caching the matrix inversion rather than compute it repeatedly. 
 
-## Write a short comment describing this function
 
 makeCacheMatrix <- function(x = matrix()) {
 
@@ -18,7 +19,7 @@ dim(x)<-c(2,2)
 
 
 ## Write a short comment describing this function
-
+Th e
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
         
