@@ -13,7 +13,8 @@
 
 
 
-makeCacheMatrix <- function(x = matrix()) {                             ## 'x'is the matrix() 
+makeCacheMatrix <- function(x = matrix())                               ## 'x'is the matrix() 
+{                             
 
         dim(x)<-c(2,2)                                                  ## 'x' is converted to matrix
         i<- NULL                                                        ## inverse of matrix is set to NULL
